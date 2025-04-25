@@ -5,7 +5,7 @@ async function main() {
   const config = new AptosConfig({ network: Network.TESTNET });
   const aptos = new Aptos(config);
 
-  const PRIVATE_KEY = new Ed25519PrivateKey("0x729ba33660fe926d703cf62fd86312ed65d549bb82580f1bbea10d55c0e3a23e");
+  const PRIVATE_KEY = new Ed25519PrivateKey("0x78d49d2bd7ffe67fb748141fd21fb678c31d043467c38e873d6f2b2f55246249");
   
   const MY_ACCOUNT = Account.fromPrivateKey({
     privateKey: PRIVATE_KEY,
